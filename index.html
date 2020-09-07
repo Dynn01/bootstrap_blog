@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    
+    <title>Hello, world!</title>
+    <style>
+        #overview {
+            background-image: url(asset/img/bluekeyboard.jpg);
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+        @media (max-width: 575.98px){
+            #overview-image {
+                display: none;
+            }
+            .container-fluid {
+                box-sizing: content-box;
+            }
+            #navigation{
+                display: none;
+            }
+            #description h1 {
+                font-size: 1.2rem;
+            }
+            #list-article h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- block header -->
+    <div class="container">
+        <div class="row" id="header">
+            <div id="logo" class="col-6">
+                <a href="index.html"><img src="asset/img/FBimg.jpg" alt="FBimg" width=70px;></a>
+            </div>
+            <div id="navigation" class="col-sm-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+
+    <!-- block overview -->
+    <div id="overview" class="container-fluid">
+        <div class="row">
+            <div id="description" class="col-6 pl-5 pt-4">
+                <h1 class="text-white">Judul Header</h1>
+                <p class="text-white">haiiiii Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores quas quia, reiciendis molestiae ut obcaecati maxime perspiciatis doloribus mollitia minima dolorem vitae amet in, inventore itaque. Ex, doloremque veritatis.</p>
+                <a class="btn btn-primary" href="#">Read More</a>
+            </div>
+            <div id="overview-image" class="col-6">
+                <img src="asset/img/bluekeyboard.jpg" alt="bluekeyboard" width="450">
+            </div>
+        </div>
+    </div>
+
+    <!-- block article -->
+    <div class="container" id="article">
+        <div class="row">
+            <div id="content" class="col-sm-8">
+                <div class="list-article mt-2" id="article-1">
+                    <img class="w-100" src="asset/img/unnamed.jpg" alt="images">
+                    <a href="#">Article</a>
+                    <div id="author">
+                        <img width="48" height="48" src="../html/nyobasek/foto.jpg" alt="foto" class="rounded-circle float-left">
+                        <p class="float-left pt-3 pl-3">Khoirudin 4 September 2020</p>
+                        <div class="clearfix"></div>
+                    </div> 
+                    <h2 class="display-4">Perkembangan Teknologi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque at repellat sed, necessitatibus ullam reprehenderit, cumque molestias amet, optio neque architecto officia iure asperiores consequatur alias sit laboriosam suscipit est?</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+            </div>
+            <div id="sidebar" class="col-sm-4">
+                <ul class="list-group pt-2">
+                    <li class="list-group-item" id="article-1"><a href="#article-1">Perkembangan Teknologi</a></li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- block footer -->
+    <div id="footer" class="container-fluid mt-5 bg-dark text-white">
+        <div class="row">
+            <div class="col-sm-3 mt-3">
+                <h2>Tentang Loker</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem animi eum itaque numquam blanditiis praesentium dolores assumenda error cum fugiat odit ut, dolorum voluptatum quos repellendus temporibus ducimus quaerat. Fugit!</p>
+            </div>
+            <div class="col-sm-3 mt-3">
+                <h2>Tentang Kami</h2>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark border-0">Perkembangan Teknologi</a></li>
+                    <li class="list-group-item bg-dark border-0">Dapibus ac facilisis in</li>
+                    <li class="list-group-item bg-dark border-0">Morbi leo risus</li>
+                    <li class="list-group-item bg-dark border-0">Porta ac consectetur ac</li>
+                    <li class="list-group-item bg-dark border-0">Vestibulum at eros</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 mt-3">
+                <h2>Pencari Kerja</h2>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark border-0">Perkembangan Teknologi</a></li>
+                    <li class="list-group-item bg-dark border-0">Dapibus ac facilisis in</li>
+                    <li class="list-group-item bg-dark border-0">Morbi leo risus</li>
+                    <li class="list-group-item bg-dark border-0">Porta ac consectetur ac</li>
+                    <li class="list-group-item bg-dark border-0">Vestibulum at eros</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 mt-3">
+                <h2>Perusahaan</h2>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark border-0">Perkembangan Teknologi</a></li>
+                    <li class="list-group-item bg-dark border-0">Dapibus ac facilisis in</li>
+                    <li class="list-group-item bg-dark border-0">Morbi leo risus</li>
+                    <li class="list-group-item bg-dark border-0">Porta ac consectetur ac</li>
+                    <li class="list-group-item bg-dark border-0">Vestibulum at eros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="asset/JS/jquery-3.5.1.slim.min.js"></script>
+    <script src="asset/JS/popper.min.js"></script>
+    <script src="asset/JS/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#description a").click(function(){
+            alert("Oke");
+        });
+        $("#description h1").css('color','red');
+          // alert('po');
+      });
+      // $description.css('color','red')
+      //});
+    </script>
+</body>
+</html>
